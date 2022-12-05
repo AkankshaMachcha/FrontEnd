@@ -1,0 +1,80 @@
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    position:absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* position:bottom 0; */
+}
+.sec1{
+    margin-left: 20px;
+    height: 400px;
+    width: 40%;
+}
+.sec2{
+    height: 400px;
+    width: 55%;
+}
+#feedbackform{
+    margin-top: 30px;
+    height: 250px;
+    background-color: rgb(41, 41, 41,0.796);
+    width: 90%;
+}
+#formhead{
+    text-align: left;
+    color: white;
+    border-bottom: 1rem;
+    border-color: aqua;
+    margin-left: 20px;
+}
+.genre-cat{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    line-height: 0.3;
+    margin-left: -20px;
+    margin-top: -20px;
+    font-weight: 900;
+    color: #c47e5f;
+   
+}
+.genre-cat p:hover{
+    text-decoration: underline;
+    color: #3175db;
+    
+}
+.genre-c{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    color: #735040;
+    margin-top: -5px;
+}
+.genre-fic  {
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -12px;
+    margin-top: -10px;
+}
+.genre-nofic{
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
+}
+.sec2 #gen{
+    text-align: center;
+    font-size: 25px;
+    color: #3c2a21;
+    margin-top: 8px;
+}

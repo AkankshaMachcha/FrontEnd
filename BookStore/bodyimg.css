@@ -1,0 +1,54 @@
+#sec{
+    height: 490px;
+    width: 100%;
+    background-image: url("/BookStore/pexels-stanislav-kondratiev-2908984.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#sec .blur{
+    height: 490px;
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+#sec .out .blur .center{
+    width: 55%;
+    float: center;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#sec h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#slo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -50px;
+}
+#para{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+#btn{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px;
+    width: 30px;
+    height: 25px;
+    padding: 10px;
+}
+#btn:hover{
+    background-color: #0D6EFD;
+    color: white;
+}
